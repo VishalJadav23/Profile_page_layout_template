@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    /* border: 1px solid red; */
+}
+
+.black {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    color: white;
+    width: 97%;
+    height: 180vh;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#myimg {
+    background-color: rgba(245, 245, 245, 0.095);
+    border-radius: 40%;
+    margin-left: 15px;
+}
+
+.black .sidebar {
+    width: 300px;
+    height: 800px;
+    border: 1px solid rgba(255, 255, 255, 0.461);
+    border-radius: 15px;
+    background-color: rgba(42, 41, 41, 0.767);
+}
+
+.black .sidebar h2 {
+    margin-left: 30px;
+}
+
+
+.black .sidebar ul li {
+    list-style-type: none;
+    display: flex;
+    margin: 30px;
+}
+
+.black .sidebar ul li .Developer {
+    margin-left: 50px;
+    justify-content: center;
+    opacity: 0.6;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.375);
+}
+
+
+.black .sidebar ul li h5 {
+    font-size: 15px;
+    color: peru;
+}
+
+.black .sidebar ul li .wrap {
+    margin-left: 20px;
+}
+
+.black .sidebar ul li .fas,
+.black .sidebar ul li .fa-solid {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    color: cyan;
+
+    padding: 10px;
+    box-shadow: -1px 1px 1px 1px rgb(107, 106, 106);
+    border-radius: 5px;
+
+}
+
+.black .sidebar ul li p {
+    opacity: 0.6;
+    margin: 2px;
+}
+
+.black .sidebar ul li .fab {
+    font-size: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px rgba(172, 255, 47, 0.281);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+/* RIGHT SIED CSS  */
+
+.content {
+    width: 900px;
+    border: 1px solid rgba(255, 255, 255, 0.461);
+    margin-left: 35PX;
+    border-radius: 15px;
+    background-color: rgba(42, 41, 41, 0.767)
+}
+
+.content .navbar {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.252);
+}
+
+
+
+.content .navbar ul {
+    display: flex;
+}
+
+.content .navbar ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+.content .navbar ul li:hover{
+   color: yellow;
+}
+
+.content .about {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.content .about h1 {
+    width: 155px;
+    padding: 10px;
+    border-bottom: 1px solid red;
+
+}
+
+
+.content .text {
+    margin: 20px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+
+.doing {
+    margin: 20px;
+
+}
+
+.doing .box4 {
+    position: relative;
+    top: 10px;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.doing .box4 .box1 {
+    position: relative;
+    display: flex;
+    width: 350px;
+    margin-left: 100px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 7px;
+    padding: 15px;
+
+}
+
+.doing .box4 .box1 img {
+
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+
+.doing .box4 .box1 .heading h3 {
+    margin: 9px;
+    color: rgb(249, 144, 144);
+
+}
+
+.doing .box4 .box1 .heading p {
+    margin: 9px;
+    opacity: 0.5;
+}
+
+.test {
+    margin: 20px;
+}
+
+.test .box2 {
+    display: flex;
+}
+
+.test .box2 .box {
+    margin: 6px;
+    padding: 15px;
+    border-radius: 7px;
+    border-bottom: 2px solid yellow;
+}
+
+
+.test .box2 .box p {
+
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+legend img{
+    background-color: rgba(62, 60, 60, 0.764);
+    border-radius: 15%;
+    border: 1px solid rgb(255, 255, 255);
+    }
+
+fieldset{
+    background-color: rgba(255, 255, 255, 0.134);
+    border-radius: 19px;
+    margin: 10px;
+   }
+.test .box2 .box img {
+position: relative;
+
+top: -50px;
+display: block;
+
+}
+
+.clients{
+    margin: 40px;
+    /* border-bottom: 2px solid yellow; */
+}
+
+.clients ul {
+    display: flex;
+}
+
+.clients ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.clients ul li:first-child {
+    list-style: none;
+    border-bottom: 2px solid yellow;
+    margin: 5px;
+}
